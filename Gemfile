@@ -21,8 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# adding a simple form
-gem 'simple_form'
+
 
 #Adding Pagination
 gem 'will_paginate', '~> 3.1.0'
