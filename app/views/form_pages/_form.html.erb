@@ -1,0 +1,14 @@
+    <div class="formaction">
+      <%= simple_form_for Calculation.new do |f| %>
+        <div class="modal-body">
+          <%= f.input :title  %>
+          <%= f.input :amount  %>
+            <%= f.input :datetime %>
+        </div>      
+        <div class="modal-footer">
+          <%= link_to 'Back', root_path , class: 'btn btn-primary' %> 
+          <%= f.submit 'Create Record', class: 'btn btn-primary' %>
+        </div>
+      <% end %>
+    </div>
+   

@@ -1,0 +1,12 @@
+
+      <%= simple_form_for @account, method: :patch do |f| %>
+        <div class="modal-body">
+          <%= f.input :title  %>
+          <%= f.input :amount  %>
+            <%= f.input :datetime %>
+        </div>      
+        <div class="modal-footer">
+          <%= f.submit 'Update', class: 'btn btn-primary' %>
+        </div>
+      <% end %>
+   
